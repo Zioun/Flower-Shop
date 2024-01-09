@@ -158,3 +158,22 @@ header{
     font-weight: 600;
     line-height: 35px;
 }
+/* hot deal */
+.hot_deal{
+    display: flex;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    margin-top: 128px;
+}
+.hot_deal_area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hot_deal_content{
+    text-align: center !important;
+}
+.hot_deal_content p{
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
